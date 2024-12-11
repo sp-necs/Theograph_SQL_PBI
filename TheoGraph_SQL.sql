@@ -16,7 +16,7 @@ SELECT DENSE_RANK() OVER(ORDER BY ClientId) ClientIndx
 	  ,DENSE_RANK() OVER(PARTITION BY ClientId Order By EventType) EventRank
 	  ,CUME_DIST() OVER(PARTITION BY ClientID, EventType Order By EventSubtype) EventSubtypeRank
  INTO #InputTempTable
- FROM [dbo].[InputData];
+ FROM [InputData];
 
 CREATE TABLE #DateExpand(
 	ClientIndx int
