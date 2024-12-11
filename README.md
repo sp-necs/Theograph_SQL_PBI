@@ -1,7 +1,7 @@
 # Theograph_SQL_PBI
 
 ## SQL Code
-### CreateSampleDataset
+### CreateInputData
 This SQL file will create the table 'InputData'.
 
 ### InsertSampleDataset
