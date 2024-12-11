@@ -1,7 +1,14 @@
 # Theograph_SQL_PBI
 
 ## SQL Code
-SQL code takes the input data table and creates the TheoGraph table with new columns for ranks and eventDate required to plot the graph in PowerBI.
+### CreateSampleDataset
+This SQL file will create the table 'InputData'.
+
+### InsertSampleDataset
+This SQL file will insert the sample dataset into 'InputData' table. (If you have your own data then don't run this SQL file and just insert/import your data into 'InsertData' table.)
+
+### TheoGraph_SQL
+This SQL code takes the input data table ('InputData') and creates the TheoGraph table with new columns for ranks and eventDate required to plot the graph in PowerBI.
 
 ## Datasets
 
